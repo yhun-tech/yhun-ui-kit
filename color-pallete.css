@@ -63,7 +63,7 @@
     --pal4-orange:#761a02;
 
 
-    
+
     /* /* WHITES  */
     --wf5-:#f5f5f5;
     --pure_white--: #fff;
@@ -83,6 +83,10 @@
     --color-jk-dark:#212A31;
     --color-jk-dgray:#f6fbff;
 
+
+
+    
+    
     /* SIGNS */
     --color-danger: #ff7782;
     --color-danger-b: rgb(232, 162, 168);
@@ -90,6 +94,8 @@
     --color-success_a: #41f153;
     --color-success_b: #64e4b9;
     --color-warning: #ffbb55;
+
+
 
 
 
@@ -113,6 +119,17 @@
     --shad-dark-c: rgba(0,0,0,0.4);
     --shad-dark-e: rgba(0,0,0,0.3);
     --shad-dark-f: rgba(0,0,0,0.2);
+
+
+
+    --fns-default-down-2:0.61rem;
+    --fns-down-1:0.8rem;
+    --fns-default:1rem;
+    --fns-up2:1.3rem;
+    --fns-default-up3:1.6rem;
+    --fns-up4:2.1rem;
+    --fns-default-up4:2.6rem;
+    --fns-default-up6:4.2rem;
 
 
 }
