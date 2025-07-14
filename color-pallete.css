@@ -121,15 +121,15 @@
     --shad-dark-f: rgba(0,0,0,0.2);
 
 
-
-    --fns-default-down-2:0.61rem;
+    /* 1.618  */
+    --fns-default-down-2:0.618rem;
     --fns-down-1:0.8rem;
     --fns-default:1rem;
     --fns-up2:1.3rem;
-    --fns-default-up3:1.6rem;
+    --fns-default-up3:1.618rem;
     --fns-up4:2.1rem;
-    --fns-default-up4:2.6rem;
-    --fns-default-up6:4.2rem;
+    --fns-default-up4:2.617rem;
+    --fns-default-up6:4.23rem;
 
 
 }
