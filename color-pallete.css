@@ -1,7 +1,8 @@
 :root{
 
-      /* [PL1] FOUNDATIONS */
+
    
+   /* [PL1] FOUNDATIONS */
     --main-white--:#ede8f5;
     --white-blple--:#adbbda;
     --purpluish--:#8697c4;
@@ -35,17 +36,18 @@
 
 
     /* ASH 1 */
-
     --ash1-darka:#202a31;
     --ash1-darkb:#3a4852;
     --ash1-gray:#607685;
     --ash1-lgray:#819eb3;
 
+   /* ASH 2 */
     --ash2-darka:#203031;
     --ash2-darkb:#3a5152;
     --ash2-gray:#608385;
     --ash2-lgrgray:#81b1b3;
 
+    /* ASH 3 */
     --ash3-dark-purp:#302031;
     --ash3-pastel-purp:#483a52;
     --ash3-purp:#746085;
@@ -157,14 +159,105 @@
 
 
     /* 1.618  */
-    --fns-default-down-2:0.618rem;
+    --fns-default-down-0-6:0.618rem;
     --fns-down-1:0.8rem;
-    --fns-default:1rem;
+    --fns-default-1:1rem;
     --fns-up2:1.3rem;
-    --fns-default-up3:1.618rem;
+    --fns-default-up1-6:1.618rem;
     --fns-up4:2.1rem;
-    --fns-default-up4:2.617rem;
-    --fns-default-up6:4.23rem;
-
+    --fns-default-up2-6:2.617rem;
+    --fns-default-up4-2:4.23rem;
+    --fns-default-up-6-8:6.84rem;
 
 }
+
+
+@font-face {
+   font-family: "Poppins";
+   src: url("Fonts/Sans_Serif/Poppins-Regular.ttf");
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   font-family: "Poppins";
+   color: var(--main-white--);
+}
+
+body{
+
+}
+
+.wrapper{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 9fr;
+   
+   height: 100vh;
+   width: 100vw;
+   background-color: var(--metal-dark1);
+}
+
+   .font_frames{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+     
+      background-color: var(--metal-dark5);
+      border-radius: 8px;
+      box-shadow: 10px 10px 5px 2px var(--shad-dark-c);
+   }
+
+      .san_serif_frame{
+         grid-area: 2/1/3/2;
+         margin: 1rem 0.5rem 1rem 1rem;
+         
+      }
+
+      .font_menu{
+         display: flex;
+         align-items: start;
+         justify-content: start;
+         grid-area: 1/ 1/1 / 3;
+         margin: 1rem 1rem 1rem 0.5rem;
+         border-radius: 8px;
+      }
+
+         .font_menu .nav_button_group{
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+         }
+            .nav_button_group a{
+               text-decoration: none;
+               margin-right: 2rem;
+            }
+
+
+
+            
+
+
+
+         .fn-up-6_8{
+            font-size: var(--fns-default-up-6-8);
+            text-align: center;
+         }
+         .fn-up-4_2{
+            font-size: var(--fns-default-up4-2);
+         }
+         .fn-up-2_6{
+            font-size: var(--fns-default-up2-6);
+         }
+         .fn-up-1_6{
+            font-size: var(--fns-default-up1-6);
+         }
+         .fn-1{
+            font-size: var(--fns-default-1);
+         }
+         .fn-down-0_6{
+            font-size: var(--fns-default-down-0-6);
+         }
+         
+
