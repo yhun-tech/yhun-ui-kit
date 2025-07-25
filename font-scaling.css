@@ -59,6 +59,11 @@
    src: url("Fonts/Sans_Serif/Poppins-Regular.ttf");
 }
 
+
+
+
+
+
 *{
    padding: 0;
    margin: 0;
@@ -68,6 +73,7 @@
 
 body{
    overflow-x: hidden;
+    background-color: var(--metal-dark5);
 }
 
 body::-webkit-scrollbar{
@@ -106,16 +112,15 @@ body::-webkit-scrollbar-thumb{
       
       }
 
-         .font_menu .nav_button_group{
+         .font_menu .font_title_frame{
            display: flex;
            align-items: center;
-           justify-content: space-evenly;
+           justify-content:center;
+            height: 100%;
+            width: 100%;
          }
-            .nav_button_group a{
-               text-decoration: none;
-               margin-right: 2rem;
-               font-size:var(--fns-default-down-0-6);
-            }
+           
+
 
 
         .font_frames{
@@ -161,7 +166,7 @@ body::-webkit-scrollbar-thumb{
          .font_frames.font_sidebar_frame{
             display: flex;
             align-items: center;
-            justify-content: center;   
+            justify-content: start;   
             margin-right: 2rem;
             overflow-y: auto;
             background-color: var(--metal-dark5);
@@ -172,7 +177,7 @@ body::-webkit-scrollbar-thumb{
                display: flex;
                align-items: center;
                justify-content: center;   
-             
+               margin: 1rem;
                border-radius: 5px;
                background-color: var(--metal-dark2);
                width: 85%;
@@ -194,13 +199,14 @@ body::-webkit-scrollbar-thumb{
                }
 
          .font_dropdown_frame{
-            grid-area: 2 / 1 / 2 /1;
+          
             height: 90%;
-             width: 85%;
+            width: 85%;
             display: flex;
             align-items: center;
             justify-content: start;
             flex-direction: column;
+            overflow-y:auto;
          }
 
             .font_dropdown_frame button{
