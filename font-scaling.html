@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Scaling HTML</title>
 
-
-   <link rel="stylesheet" href="color-pallete.css">
+    <link rel="stylesheet" href="font-scaling.css">
+    <script src="font-scaling.js"></script>
 
 </head>
 
@@ -15,7 +15,7 @@
 
                 <section class="wrapper">
            
-
+                    <!-- NAV BAR -->
                     <nav class="font_menu">
 
                         <div class="nav_button_group">
@@ -30,17 +30,40 @@
                     </nav>
 
 
-
+                    <!-- MAIN FRAME -->
                     <div class="font_frames san_serif_frame">
 
-                          <p class="font_size fn-up-6_8">This is a font calculated with 6.84</p>
-                        <p class="font_size fn-up-4_2">This is a font calculated with 4.23rem</p>
-                        <p class="font_size fn-up-2_6">This is a font calculated with 2.617rem</p>
+                        <p class="font_size fn-up-6_8">This is a font calculated with 6.84</p>
+                        <p class="font_size fn-up-4_2">This is a font calculated with 4.23</p>
+                        <p class="font_size fn-up-2_6">This is a font calculated with 2.617</p>
                         <p class="font_size fn-up-1_6">This is a font calculated with 1.618</p>
                         <p class="font_size fn-1">This is a font calculated with 1</p>
-                        <p class="font_size fn-down-0_6">This is a font calculated with 0.618rem</p>
+                        <p class="font_size fn-down-0_6">This is a font calculated with 0.618</p>
 
                     </div>
+
+
+
+
+
+                    <!-- SIDEBAR -->
+                    <div class="font_frames font_sidebar_frame">
+
+                        <div class="add_font_frame">
+                            <input type="file" id="file-input">
+                            <label for="file-input" class="custom-file-label">Choose Font File</label>
+                        </div>
+
+                        <div class="font_dropdown_frame">
+
+                            <button class="sidebar-font-btn" id="poppins">Poppins</button>
+                            <button class="sidebar-font-btn" id="open-sans">Open Sans</button>
+
+                        </div>
+        
+                    </div>
+
+
 
                     
                 </section>
