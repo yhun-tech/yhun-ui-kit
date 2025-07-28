@@ -2,7 +2,6 @@ addEventListener("DOMContentLoaded", () => {
 
     const chosenFile = document.getElementById("file-input");
     const font_title_frame = document.querySelector(".font_title_frame");
-
     
     const savedFontName = localStorage.getItem("font_name");
     const savedFontDataUrl = localStorage.getItem("font_data_url");
@@ -10,8 +9,6 @@ addEventListener("DOMContentLoaded", () => {
         change_Font(savedFontName, savedFontDataUrl);
         font_title_frame.textContent = `${savedFontName}`;
     }
-
-
 
 
     chosenFile.addEventListener("change", function () {

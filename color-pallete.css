@@ -12,7 +12,6 @@
     --blue-white:#d0e3ec;
     --color-dark--blue: #363949;
 
-    
     /* [PL2]Accueil1 */
     --acc-greena-:#61892f;
     --acc-greenb:#86c232;
@@ -27,13 +26,20 @@
     --moon-phases-d:#748d92;
     --moon-phases-e:#d3d9d4;
 
-
     /*[PLR4] HELLO */
     --hello-cyan-a:#66fcf1;
     --hello-cyan-b:#45a29e;
     --hello-dark-a:#0b0c10;
     --hello-dark-b:#000428;
 
+   /* [PLR5] TASTE */
+
+   --taste-purple-a:#2d283e;
+   --taste-purple-b:#4c495d;
+   --taste-purple-c:#564f6f;
+   --taste-purple-d:#802bb1;
+   --taste-white:#d1d7e0;
+   
 
     /* ASH 1 */
     --ash1-darka:#202a31;
@@ -99,7 +105,14 @@
     --pal8-orange:#761a02;
 
 
+   /*  PURPLE 1*/
 
+
+
+
+
+
+   
 
     /* /* WHITES  */
     --wf5-:#702d2d;
@@ -125,12 +138,12 @@
     
     
     /* SIGNS */
-    --color-danger: #ff7782;
-    --color-danger-b: rgb(232, 162, 168);
-    --color-danger-c:rgb(231, 214, 216);
-    --color-success_a: #41f153;
-    --color-success_b: #64e4b9;
-    --color-warning: #ffbb55;
+    --color-danger: hwb(355 40% 0%);
+    --color-danger-b: hsl(355, 60%, 75%);
+    --color-danger-c:hsl(355, 80%, 90%);
+    --color-success_a: hsl(125, 85%, 60%);
+    --color-success_b: hsl(160, 70%, 65%);
+    --color-warning: hsl(35, 100%, 65%);
 
 
 
