@@ -1,159 +1,125 @@
 :root{
 
-
-   
-   /* [PL1] FOUNDATIONS */
-    --main-white--:#ede8f5;
-    --white-blple--:#adbbda;
-    --purpluish--:#8697c4;
-    --bluis--:#7091e6;
-    --mainblue--:#3d52a0;
-    --gainsbro:#F5F5F5;
-    --blue-white:#d0e3ec;
-    --color-dark--blue: #363949;
+ /* [PL1] FOUNDATIONS */
+    --main-white--: hsl(258, 44%, 93%);
+    --white-blple--: hsl(221, 32%, 77%);
+    --purpluish--: hsl(225, 25%, 65%);
+    --bluis--: hsl(220, 74%, 62%);
+    --mainblue--: hsl(225, 46%, 44%);
+    --gainsbro: hsl(0, 0%, 96%);
+    --blue-white: hsl(195, 44%, 86%);
+    --color-dark--blue: hsl(225, 15%, 25%);
 
     /* [PL2]Accueil1 */
-    --acc-greena-:#61892f;
-    --acc-greenb:#86c232;
-    --acc-darka:#222629;
-    --acc-darkb:#474b4f;
-    --acc-darkc:#6b6e70;
+    --acc-greena-: hsl(84, 39%, 37%);
+    --acc-greenb: hsl(82, 56%, 47%);
+    --acc-darka: hsl(165, 9%, 15%);
+    --acc-darkb: hsl(180, 3%, 29%);
+    --acc-darkc: hsl(180, 2%, 43%);
 
-     /* [PL3]MOON PHASE */
-    --moon-phases-a:#212a31;
-    --moon-phases-b:#2e3944;
-    --moon-phases-c:#124e66;
-    --moon-phases-d:#748d92;
-    --moon-phases-e:#d3d9d4;
+    /* [PL3]MOON PHASE */
+    --moon-phases-a: hsl(204, 19%, 15%);
+    --moon-phases-b: hsl(210, 19%, 22%);
+    --moon-phases-c: hsl(197, 65%, 24%);
+    --moon-phases-d: hsl(192, 11%, 52%);
+    --moon-phases-e: hsl(120, 13%, 85%);
 
     /*[PLR4] HELLO */
-    --hello-cyan-a:#66fcf1;
-    --hello-cyan-b:#45a29e;
-    --hello-dark-a:#0b0c10;
-    --hello-dark-b:#000428;
+    --hello-cyan-a: hsl(174, 89%, 69%);
+    --hello-cyan-b: hsl(174, 40%, 44%);
+    --hello-dark-a: hsl(210, 7%, 5%);
+    --hello-dark-b: hsl(225, 100%, 13%);
 
    /* [PLR5] TASTE */
-
-   --taste-purple-a:#2d283e;
-   --taste-purple-b:#4c495d;
-   --taste-purple-c:#564f6f;
-   --taste-purple-d:#802bb1;
-   --taste-white:#d1d7e0;
-   
+   --taste-purple-a: hsl(255, 17%, 19%);
+   --taste-purple-b: hsl(246, 11%, 32%);
+   --taste-purple-c: hsl(259, 16%, 37%);
+   --taste-purple-d: hsl(282, 62%, 39%);
+   --taste-white: hsl(220, 22%, 85%);
 
     /* ASH 1 */
-    --ash1-darka:#202a31;
-    --ash1-darkb:#3a4852;
-    --ash1-gray:#607685;
-    --ash1-lgray:#819eb3;
+    --ash1-darka: hsl(204, 21%, 15%);
+    --ash1-darkb: hsl(204, 18%, 27%);
+    --ash1-gray: hsl(204, 16%, 45%);
+    --ash1-lgray: hsl(204, 26%, 60%);
 
    /* ASH 2 */
-    --ash2-darka:#203031;
-    --ash2-darkb:#3a5152;
-    --ash2-gray:#608385;
-    --ash2-lgrgray:#81b1b3;
+    --ash2-darka: hsl(178, 21%, 15%);
+    --ash2-darkb: hsl(178, 18%, 27%);
+    --ash2-gray: hsl(178, 16%, 45%);
+    --ash2-lgrgray: hsl(178, 26%, 60%);
 
     /* ASH 3 */
-    --ash3-dark-purp:#302031;
-    --ash3-pastel-purp:#483a52;
-    --ash3-purp:#746085;
-    --ash3-9d81b3:#9d81b3;
-
-  
+    --ash3-dark-purp: hsl(300, 21%, 15%);
+    --ash3-pastel-purp: hsl(282, 18%, 27%);
+    --ash3-purp: hsl(270, 16%, 45%);
+    --ash3-9d81b3: hsl(270, 29%, 61%);
 
     /*[PAL1] PALLETA BLUE */
-    --pal1-whitea:#fffbfc;
-    --pal1-whiteb:#dce1e7;
-    --pal1-bluea:#4a78a6;
-    --pal1-bluec:#1b2232;
-
-
+    --pal1-whitea: hsl(345, 100%, 99%);
+    --pal1-whiteb: hsl(217, 22%, 89%);
+    --pal1-bluea: hsl(215, 39%, 46%);
+    --pal1-bluec: hsl(225, 27%, 15%);
 
      /* [PAL2] PALLETA GREEN */
-    --pal2-whitea:#e8e9e4;
-    --pal2-whiteb:#e8e9e4;
-    --pal2-greena:#a6bd84;
-    --pal2-greenb:#006400;
-
+    --pal2-whitea: hsl(60, 7%, 91%);
+    --pal2-whiteb: hsl(60, 7%, 91%);
+    --pal2-greena: hsl(82, 30%, 62%);
+    --pal2-greenb: hsl(120, 100%, 20%);
 
     /* [PAL3] PALLETA BLACK ORANGE*/
-    --pal4-darka: #191919;
-    --pal4-darkb:#2a2c2b;
-    --pal4-darkc:#131313;
-    --pal4-orange:#feda87;
+    --pal4-darka: hsl(0, 0%, 10%);
+    --pal4-darkb: hsl(120, 2%, 17%);
+    --pal4-darkc: hsl(0, 0%, 7%);
+    --pal4-orange: hsl(41, 98%, 76%);
 
-
-  
     /* [PLR5] PALLETA BLUE GREEN*/
-    --pal5-bgreen: #00fe9b;
-    --pal5-dark:#00041f;
-    --pal5-blue: #6765e0;
-    --pa5-white:#f7f7ff;
+    --pal5-bgreen: hsl(160, 100%, 50%);
+    --pal5-dark: hsl(240, 100%, 6%);
+    --pal5-blue: hsl(239, 66%, 63%);
+    --pa5-white: hsl(240, 100%, 98%);
 
-       /* [PLR5] PALLETA RED BLUE*/
-    --pal7-dark: #030b18;
-    --pal7-white:#f5eae4;
-    --pal7-red: #fe0032;
-    --pal7-dark_blue:#313e60;
-
-
-
-    /* [PLR8] PALLETA BLACK ORANGE*/
-    --pal8-browna: #e6cbb8;
-    --pal8-brownb:#5f5554;
-    --pal8-dark3:#fbf0f6;
-    --pal8-orange:#761a02;
-
-
-   /*  PURPLE 1*/
-
-
-
-
-
-
-   
-
-    /* /* WHITES  */
-    --wf5-:#702d2d;
-    --pure_white--: #fff;
-
+    /* [PLR5] PALLETA RED BLUE*/
+    --pal7-dark: hsl(220, 73%, 5%);
+    --pal7-white: hsl(24, 56%, 94%);
+    --pal7-red: hsl(348, 100%, 50%);
+    --pal7-dark_blue: hsl(222, 32%, 28%);
 
     
-    /* DARK MODE PALLETE */
-    --metal-dark1:#232222;
-    --metal-dark2:#3f4040;
-    --metal-dark3:#222222;
-    --metal-dark4:#87888a;
-    --metal-dark5:#1b1b1b1b;
+    /* [PLR8] PALLETA BLACK ORANGE*/
+    --pal8-browna: hsl(26, 46%, 80%);
+    --pal8-brownb: hsl(12, 7%, 34%);
+    --pal8-dark3: hsl(320, 56%, 97%);
+    --pal8-orange: hsl(13, 97%, 24%);
 
+    /* WHITES */
+    --wf5-: hsl(0, 44%, 29%);
+    --pure_white--: hsl(0, 0%, 100%);
+
+
+
+    /* DARK MODE PALLETE */
+    --metal-dark1: hsl(0, 2%, 14%);
+    --metal-dark2: hsl(0, 1%, 25%);
+    --metal-dark3: hsl(0, 0%, 13%);
+    --metal-dark4: hsl(240, 2%, 53%);
+    --metal-dark5: hsl(0, 0%, 7%);
 
     /* GRAYS */
-    --gray_1--:gray;
-    --color-jk-dark:#212A31;
-    --color-jk-dgray:#f6fbff;
-
-
-
-    
-    
-    /* SIGNS */
-    --color-danger: hwb(355 40% 0%);
-    --color-danger-b: hsl(355, 60%, 75%);
-    --color-danger-c:hsl(355, 80%, 90%);
-    --color-success_a: hsl(125, 85%, 60%);
-    --color-success_b: hsl(160, 70%, 65%);
-    --color-warning: hsl(35, 100%, 65%);
-
-
-
-
+    --gray_1--: hsl(0, 0%, 50%);
+    --color-jk-dark: hsl(204, 19%, 15%);
+    --color-jk-dgray: hsl(210, 100%, 99%);
 
     /* DARK */
-    --dark-variant: #2c2f31;
-    --dark-variantb: rgb(53,53,53);
-    --color-dark-blue:#1f2833;
-    
+    --dark-variant: hsl(220, 7%, 19%);
+    --dark-variantb: hsl(0, 0%, 21%);
+    --color-dark-blue: hsl(210, 29%, 15%);
+
+
+
+
+
+
 
 
 
