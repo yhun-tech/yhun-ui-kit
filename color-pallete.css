@@ -1,6 +1,7 @@
 :root{
 
- /* [PL1] FOUNDATIONS */
+
+    /* [PL1] FOUNDATIONS */
     --main-white--: hsl(258, 44%, 93%);
     --white-blple--: hsl(221, 32%, 77%);
     --purpluish--: hsl(225, 25%, 65%);
@@ -36,6 +37,12 @@
    --taste-purple-c: hsl(259, 16%, 37%);
    --taste-purple-d: hsl(282, 62%, 39%);
    --taste-white: hsl(220, 22%, 85%);
+
+   /* [PLR6] SNOW A */
+   --snow-blue-b:hsl(218, 39%, 76%);
+   --snow-blue-a:hsl(217, 36%, 40%);
+   --snow-blue-c:hsl(212, 65%, 89%);
+   --snow-white-a:hsl(0, 0%, 100%);
 
     /* ASH 1 */
     --ash1-darka: hsl(204, 21%, 15%);
