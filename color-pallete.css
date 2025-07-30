@@ -123,11 +123,15 @@
     --color-dark-blue: hsl(210, 29%, 15%);
 
 
-
-
-
-
-
+    /* SIGNS */
+    --color-danger-a: hsl(355, 100%, 70%);
+    --color-danger-b: hsl(355, 70%, 80%);
+    --color-danger-c:hsl(353, 40%, 90%);
+    --color-warning: hsl(35, 80%, 70%);
+    --color-success-a: hsl(125, 85%, 60%);
+    --color-success-b: hsl(160,60%, 70%);
+    --color-success-c:hsl(150, 80%, 80%);
+ 
 
 
     /* SHADOWS */
